@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author David Arnell
  */
 @WebServlet(name = "StringController", urlPatterns = {"/StringController"})
-public class StringGeneratorController extends HttpServlet {
+public class StringGeneratorService extends HttpServlet {
     
     private String wordList = "stringList";
     private String destinationPage = "home.jsp";    
